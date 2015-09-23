@@ -1,0 +1,55 @@
+@charset "utf-8";
+/*
+Theme Name: WPortal Theme Option Style
+Theme URI: http://admin.nocower.com
+Description: 主题设计开发由: <a href="http://admin.nocower.com">马赐崇</a>完成.
+Author: 马赐崇
+Author URI: http://admin.nocower.com
+*/
+/* Global CSS */
+/** 背景及字体 **/    
+html,body.login{   
+    background:#f2f2f2;   
+    font: 14px 'Microsoft YaHei', Arial, Lucida Grande, Tahoma, sans-serif;   
+}   
+/** 去掉链接下划线 **/    
+html a{   
+    text-decoration: none;   
+}   
+/** 登录DIV **/    
+#login {   
+    background:#fff;   
+    border: 1px solid #ccc;   
+    width:400px;   
+    margin: 40px auto 0;   
+    padding: 10px 10px 20px 10px;   
+    border-radius:5px;   
+    box-shadow:0 4px 10px -1px rgba(200, 200, 200, 0.7);   
+}   
+/** 替换logo **/    
+.login h1 a{   
+background: #fff url(/wp-content/themes/Nocower-Portal/images/logo.png) no-repeat center;
+width: 400px;  
+}   
+/** 提示 **/    
+.updated, .login .message {   
+    background:#fff;   
+    border: none;   
+    text-align: center;   
+}   
+/** 表单 **/    
+.login form {   
+    box-shadow:none;   
+    border: none;   
+}   
+#loginform, #registerform, #lostpasswordform{   
+    background:transparent;   
+    border:none;   
+}   
+/** 按钮 **/    
+.button-primary,.submit .button-primary,#login form .submit input {   
+    width:83px;   
+    height:25px;   
+    font-weight: bold;   
+    border:none;   
+}  

@@ -1,0 +1,93 @@
+@charset "utf-8";
+/*
+Theme Name: WPortal Theme Option Style
+Theme URI: http://www.wpyou.com/
+Description: 本高级WP门户网站主题设计开发由: <a href="http://www.wpyou.com/">WPYOU</a>.
+Version: 1.0
+Author: wpyou
+Author URI: http://www.wpyou.com/
+Tags: green, white, fixed width, portal theme, multi columns, CMS, widgets enabled
+*/
+/* Global CSS */
+.clearfix{clear:both;font-size:1px;width:1px;height:0;visibility:hidden;margin-top:0px!important;*margin-top:-1px;line-height:0}
+
+.wpyounavi{margin: 10px 0;
+font-size: 16px;
+height: 36px;
+line-height: 38px;
+color: #FFF;
+background: #1F63B1;}
+.wpyounavi span{ float:left; padding:0px 10px; width:120px; height:36px; text-align:center; display:block; cursor:pointer;}
+.wpyounavi span.mouseover{color: #FFFFFF;
+background: #ff8800;}
+#homepage-options, #ad-options{ display:none;}
+
+.wpyoutitle{ margin:2em 0em 1em; padding-left:1em; font-size:13px; height:32px; line-height:34px; color:#154760; background-color:#777; border:1px solid #454545; border-bottom:none;}
+.wpyoutitle span{ float:left; margin-right:20px; padding:0px 10px; width:120px; height:32px; text-align:center; background:url(../images/menu_active.gif) no-repeat center -13px; display:block; text-shadow:1px 1px 0px #FFF; cursor:pointer;}
+
+.wpyou-form{ border:1px solid #E5E5E5; background-color:#F1F1F1;}
+.wpyou-form tr{ background-color:#FFF;}
+.wpyou-form tr.alt{ background-color:#EEF3F7;}
+.wpyou-form tr:hover, .wpyou-form td:hover{ background-color:#EEE;}
+.wpyou-form th, .wpyou-form td{ border-bottom:1px dotted #CCC;}
+.wpyou-form th{width: 200px;
+font-weight: bold;
+text-align: center;
+background-color: #F1F1F1;}
+.wpyou-form td{ line-height:24px !important; _background-color:#FFF;}
+.wpyou-form th:hover{ background-color:#EFE8E7;}
+.wpyou-form span.description{ padding-left:4px; font-style:normal !important; font-weight:normal;} 
+.wpyou-form input.button-primary{ width: 150px;
+height: 30px;
+line-height: 30px;
+font-size: 16px !important;
+background-color: #288AB7;}
+.wpyou-form textarea:hover, input:hover, select:hover{ border-color:#007777 !important;}
+
+.wpyousub{ margin-bottom:20px; padding-left:20px; color:#BBB !important;}
+.columntitle{ padding:5px 8px 6px; font-size:14px; font-weight:bold; text-shadow:none; color:#FFF; background:#21759B; }
+.catid-text{ width:10em !important;}
+
+.allcatsid{ float: left;
+border: 1px solid #DDD;
+background-color: #EBEBEB;
+clear: both;}
+.allcatsid ul li{ float: left;
+padding: 3px 10px;
+line-height: 14px;
+text-align: center;
+border-right: 1px solid #CCC;
+border-bottom: 1px solid #CCC;
+color: #787878;}
+.allcatsid ul li strong{ color:#222;}
+
+.setcolumn{ margin: 0px 4px 0px 0px;
+width: 33%;
+float: left;}
+.wpyoutips{ margin:5px 0 15px; padding:0px 10px; background-color:#FFFFE0; border:1px solid #E6DB55; -moz-border-radius:3px; border-radius:3px;}
+.wpyoutips p{ margin:5px 0px 6px;}
+.wpyoutips p em{ font-style:normal; color:#1D6385;}
+
+.txtad{ width:35em; height:10em;}
+
+.form-table td{ font-size:12px !important;}
+.adminfoot{float: left;line-height: 26px;
+color: #FFFFFF;
+width: 97%;
+height: 100px;
+font-size: 14px;
+background-color: #FD0000;
+margin: 15px 0px 0px 0px;
+padding: 15px;}
+.adminfoot a{
+color: #FFFFFF;}
+.adminfoot a:hover{color: #FFEE74;}
+.indexabout{width: 98%;
+height: 100px;
+float: left;
+background-color: #ff8800;
+margin-top: 10px;
+padding: 10px;
+font-size: 15px;
+color: #ffffff;
+line-height: 20px;}
